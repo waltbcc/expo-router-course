@@ -1,9 +1,21 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, StyleSheet, Text, View } from "react-native";
+
+import * as Font from "expo-font";
 
 export default function App() {
+  const [fontLoaded] = Font.useFonts({
+    "Inter-Black-18": require("./assets/fonts/Inter_18pt-Regular.ttf")
+  })
+  if (!fontLoaded) {
+    return (
+      <View style={styles.container}>
+          <ActivityIndicator size={30} color="#ffffff" />
+      </View>
+    )
+  }
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text style={styles.title}>Open up App.tsx to start working on your app!</Text>
     </View>
   );
 }
@@ -14,5 +26,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    fontFamily: 'Inter-Black-18',
   },
+  title: {
+    fontFamily: 'Inter-Black-18',
+  }
 });

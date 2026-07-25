@@ -1,4 +1,13 @@
 {
   "name": "expo-router-course",
-  "slug": "expo-router-course"
+  "slug": "expo-router-course",
+  "plugins": [
+    "expo-font"
+  ],
+  "android": {
+    "package": "com.anonymous.exporoutercourse"
+  },
+  "ios": {
+    "bundleIdentifier": "com.anonymous.exporoutercourse"
+  }
 }
