@@ -1,4 +1,4 @@
-# TypeScript Example
+# Curso de Expo Router (navigação entre telas)
 
 <p>
   <!-- iOS -->
@@ -9,31 +9,9 @@
   <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
 </p>
 
-## Launch your own
+## Playlist do curso
 
-[![Launch with Expo](https://github.com/expo/examples/blob/master/.gh-assets/launch.svg?raw=true)](https://launch.expo.dev/?github=https://github.com/expo/examples/tree/master/with-typescript)
+[![Launch with Expo](https://www.youtube.com/s/desktop/cf14c559/img/favicon_144x144.png)](https://www.youtube.com/watch?v=Yh6Qlg2CYwQ&list=PLsXDmrmFV_AT17JDf-otXSNE_eH7s0uDD)
 
-```sh
-npx create-expo --example with-typescript
-```
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
-
-## 🚀 How to use
-
-#### Creating a new project
-
-- Create a project: `npx create-expo --example with-typescript`
-- `cd` into the project
-
-### Adding TypeScript to existing projects
-
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `yarn start` or `npm run start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
-
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
-
-## 📝 Notes
-
-- [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)
+## 📝 Anotações
