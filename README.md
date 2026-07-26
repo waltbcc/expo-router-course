@@ -11,7 +11,7 @@
 
 ## Playlist do curso
 
-[![Assista o curso](https://www.youtube.com/s/desktop/cf14c559/img/favicon_96x96.png)](https://www.youtube.com/watch?v=Yh6Qlg2CYwQ&list=PLsXDmrmFV_AT17JDf-otXSNE_eH7s0uDD)
+[![Assista o curso](https://www.youtube.com/s/desktop/cf14c559/img/favicon_48x48.png)](https://www.youtube.com/watch?v=Yh6Qlg2CYwQ&list=PLsXDmrmFV_AT17JDf-otXSNE_eH7s0uDD)
 
 
 ## 📝 Anotações
